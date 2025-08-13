@@ -6,4 +6,32 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\Admin\" />
+    <Folder Include="Controllers\Usuario\" />
+    <Folder Include="Views\Admin\Libros\" />
+    <Folder Include="Views\Admin\Autores\" />
+    <Folder Include="Views\Admin\Estudiantes\" />
+    <Folder Include="Views\Admin\Devoluciones\" />
+    <Folder Include="Views\Admin\Multas\" />
+    <Folder Include="Views\Admin\Usuarios\" />
+    <Folder Include="Views\Admin\Reportes\" />
+    <Folder Include="Views\Admin\Prestamos\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Views\Usuario\Catalogo\" />
+    <Folder Include="Views\Usuario\MisPrestamos\" />
+    <Folder Include="Views\Usuario\MisMultas\" />
+    <Folder Include="Views\Usuario\Perfil\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>
