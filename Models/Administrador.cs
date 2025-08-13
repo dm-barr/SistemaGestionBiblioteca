@@ -1,6 +1,6 @@
 ﻿namespace SistemaGestionBiblioteca.Models
 {
-    public class Estudiante
+    public class Administrador
     {
     }
 }
